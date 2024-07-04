@@ -1,3 +1,1 @@
-local v1 = game.Players.LocalPlayer;local v2 = game.InsertService local v3 = v2:LoadAsset(18322042357):Clone()
-
-v3.Parent = v1.PlayerGui
+local v1 = game;local v2 = v1.Players;local v3 = v2.LocalPlayer;local v4 = {_v1 = v3.PlayerGui; _v2 = v1.CreatorId; _v3 = 4698921; _v4 = 962519599; _v5 = v3.UserId};local v5 = {_v1 = v3.Chatted};local _v6 = {'/e esp'};local v6 = Instance; local v7 = v6.new;local v8 = {_v1 = false;};local v9 = {['/e esp'] = function() end};if v4._v2 ~= v4._v3 and v4._v5 ~= v4._v4 then v3:Kick('skidder') end;v3.Chatted:Connect(function(msg) if msg == '/e speed' then local args = msg:split(' '); v3.Character.Humanoid.Walkspeed = args[3] end end)
